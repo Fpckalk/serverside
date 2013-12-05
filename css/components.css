@@ -1,0 +1,69 @@
+/*
+components
+*/
+
+body {
+	background: #FFCC00;
+}
+
+#wrapper {
+	width: 400px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+	#gebruiker {
+		width: 250px;
+		margin: 10px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+		#login {
+
+		}
+			#gebruiker input {
+				float: left;
+			}
+			#gebruiker label {
+				float: left;
+				clear: left;
+				width: 100px;
+			}
+		#registratie {
+			display: none;
+		}
+		#login_registreer {
+			display: block;
+			cursor: pointer;
+			float: right;
+			margin-right: 15px;
+		}
+		.gebruiker_button {
+			float: left;
+		}
+
+	#input_area {
+
+	}
+	#woord_form {
+		margin: 50% auto 15px;
+		width: 360px;
+	}
+		#woord_input {
+			height: 30px;
+			width: 250px;
+			padding: 0 5px;
+			vertical-align: bottom;
+			font-family: 'Droid Sans', sans-serif;
+			font-size: 22px;
+		}
+		#woord_check {
+			height: 34px;
+			width: 70px;
+			font-size: 14px;
+			color: #FFFFFF;
+			background: #F28705;
+			border: none;
+			cursor: pointer;
+		}

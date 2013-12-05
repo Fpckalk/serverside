@@ -1,0 +1,19 @@
+/*
+components
+*/
+
+body {
+	background: #FFCC00;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+	#woord_form {
+		margin: auto;
+	}
+		#woord_input {
+			height: 30px;
+			width: 250px;
+		}
